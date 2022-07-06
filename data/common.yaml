@@ -100,6 +100,14 @@ profile::platform::baseline::enable_monitoring: false
 puppet_enterprise::profile::master::check_for_updates: false
 
 ##
+# Puppet CEM
+pe_r10k::forge_settings:
+  authorization_token: 'Bearer 1a5659e21d83616a1ab75fb334846dae243d39c709833341eaa5548753fc8342'
+  baseurl: 'https://forgeapi.puppet.com'
+puppet_enterprise::master::code_manager::forge_settings:
+  authorization_token: 'Bearer 1a5659e21d83616a1ab75fb334846dae243d39c709833341eaa5548753fc8342'
+
+##
 # Continous Delivery for Puppet Enterprise (CD4PE)
 cd4pe::root_config::root_email: 'no-reply@puppet.com'
 cd4pe::root_config::root_password: 'puppetlabs'
