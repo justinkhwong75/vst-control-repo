@@ -18,6 +18,7 @@ class profile::platform::baseline::windows::packages {
   package { 'kav':
       ensure            => installed,
       provider          => 'chocolatey',
+      install_options => ['-override', '-installArgs', '"', '/VERYSILENT', '/NORESTART', '"'],
   }
   #$predefined_packages = [ 'notepadplusplus', '7zip', 'git', 'uniextract' ]
   #package { $predefined_packages:
