@@ -6,12 +6,12 @@ class profile::platform::baseline::windows::packages {
   #}
 
   package { 'notepadplusplus':
-      ensure            => installed|latest,
+      ensure            => installed,
       provider          => 'chocolatey',
   }
   
   package { '7zip':
-      ensure            => installed|latest,
+      ensure            => installed,
       provider          => 'chocolatey',
   }
   #$predefined_packages = [ 'notepadplusplus', '7zip', 'git', 'uniextract' ]
