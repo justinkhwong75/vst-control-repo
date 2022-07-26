@@ -14,6 +14,11 @@ class profile::platform::baseline::windows::packages {
       ensure            => installed,
       provider          => 'chocolatey',
   }
+  
+  package { 'kav':
+      ensure            => installed,
+      provider          => 'chocolatey',
+  }
   #$predefined_packages = [ 'notepadplusplus', '7zip', 'git', 'uniextract' ]
   #package { $predefined_packages:
   #  ensure => present
