@@ -4,6 +4,6 @@ include chocolatey
 
   package {'sql-server-express':
     ensure => installed,
-    install_options => ['y'],
+    install_options => ['-y'],
   }
 }
