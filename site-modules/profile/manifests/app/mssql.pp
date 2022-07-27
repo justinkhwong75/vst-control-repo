@@ -1,4 +1,4 @@
-class profile::app::mssql { 
+class profile::app::mssql {
 
 include chocolatey
 
