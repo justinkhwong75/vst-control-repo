@@ -2,7 +2,8 @@ class profile::app::mssql {
 
 include chocolatey
 
-  exec {
+  exec { 'mssql':
+    command => 'C:\ProgramData\chocolatey\choco.exe sql-server-express -y',
   }
   
   #package {'sql-server-express':
