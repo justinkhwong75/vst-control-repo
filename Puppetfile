@@ -21,7 +21,7 @@ mod 'puppetlabs-cem_windows', :latest
 mod 'puppetlabs-chocolatey', '6.0.1'
 mod 'puppetlabs-cisco_ios', '1.3.0'
 mod 'puppetlabs-ciscopuppet', '2.1.0'
-mod 'puppetlabs-comply', '2.5.0'
+mod 'puppetlabs-comply', '2.7.0'
 mod 'puppetlabs-concat', '7.1.1'
 mod 'puppetlabs-device_manager', '3.0.1'
 mod 'puppetlabs-dism', '1.3.1'
