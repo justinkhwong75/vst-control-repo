@@ -17,4 +17,12 @@ class profile::platform::baseline::aix {
     group  => 'system',
     mode   => '0640',
   }
+  
+  file { '/etc/motd':
+      ensure  => file,
+      owner  => 'bin',
+      group  => 'bin',
+      mode   => '0644',
+      content => "This is asset of Techcombank, only permit authorized person. If you are accessing illegally, you will commit an criminal offence.\n",
+    }
 }
