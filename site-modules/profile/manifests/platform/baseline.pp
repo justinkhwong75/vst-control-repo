@@ -31,7 +31,8 @@ class profile::platform::baseline (
       include ::profile::platform::baseline::linux
     }
     'AIX':   {
-      include ::profile::platform::baseline::aix
+      fail('AIX? You gotta be kidding me!')
+      #include ::profile::platform::baseline::aix
     }
     default: {
       fail('Unsupported operating system!')
