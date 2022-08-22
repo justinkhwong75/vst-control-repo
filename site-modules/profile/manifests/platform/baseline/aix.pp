@@ -12,10 +12,46 @@ class profile::platform::baseline::aix {
     mode   => '0750',
   }
   
+  file {'/audit':
+    owner  => 'root',
+    group  => 'audit',
+    mode   => '0750',
+  }
+  
   file {'/smit.log':
     owner  => 'root',
     group  => 'system',
     mode   => '0640',
+  }
+  
+  file {'/var/adm/cron/log':
+    owner  => 'bin',
+    group  => 'vron',
+    mode   => '0660',
+  }
+  
+  file {'/var/spool/cron/crontabs':
+    owner  => 'root',
+    group  => 'cron',
+    mode   => '0770',
+  }
+  
+  file {'/var/ct/RMstart.log':
+    owner  => 'root',
+    group  => 'system',
+    mode   => '0640',
+  }
+  
+  file {'/var/tmp/hostmibd.log':
+    owner  => 'root',
+    group  => 'system',
+    mode   => '0640',
+  }
+  
+  file {'/var/adm/sa':
+    owner  => 'adm',
+    group  => 'adm',
+    mode   => '0755',
   }
   
   file { '/etc/motd':
