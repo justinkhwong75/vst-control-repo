@@ -2,7 +2,7 @@ class profile::platform::baseline::aix {
 
   file {'/etc/passwd':
     owner => 'root';
-    group => 'security';
-    mode => '0644';
+    #group => 'security';
+    #mode => '0644';
   }
 }
