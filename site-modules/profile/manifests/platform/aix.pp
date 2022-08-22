@@ -1,4 +1,4 @@
-class profile::platform::aix (
+class profile::platform::aix {
 
   file {'/etc/passwd':
     owner => 'root';
