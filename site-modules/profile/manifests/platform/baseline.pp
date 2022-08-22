@@ -1,6 +1,7 @@
 class profile::platform::baseline (
   Boolean $orch_agent  = false,
-  Array   $timeservers = ['0.pool.ntp.org','1.pool.ntp.org'],
+  #Array   $timeservers = ['0.pool.ntp.org','1.pool.ntp.org'],
+  Array   $timeservers = ['10.97.4.7','10.97.5.7'],
   Boolean $enable_monitoring = false,
 ){
 
