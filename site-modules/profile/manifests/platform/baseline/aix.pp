@@ -23,6 +23,6 @@ class profile::platform::baseline::aix {
       owner  => 'bin',
       group  => 'bin',
       mode   => '0644',
-      content => "This is asset of Techcombank, only permit authorized person. If you are accessing illegally, you will commit an criminal offence.\n",
+      content => "This is asset of Techcombank, only permit authorized person. If you are accessing illegally, you will commit a criminal offence.\n",
     }
 }
