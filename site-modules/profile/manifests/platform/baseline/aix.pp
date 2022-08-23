@@ -59,6 +59,6 @@ class profile::platform::baseline::aix {
       owner  => 'bin',
       group  => 'bin',
       mode   => '0644',
-      content => "This is asset of Techcombank, only permit authorized person. If you are accessing illegally, you will commit a criminal offence.\n",
+      content => "This is a property of Puppet. Only authorized persons are allowed to log in. If you are not an employee of Puppet, please log out now.\n",
     }
 }
