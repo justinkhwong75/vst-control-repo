@@ -32,7 +32,6 @@ class profile::platform::baseline (
       include ::profile::platform::baseline::linux
     }
     'AIX':   {
-      #fail('AIX? You gotta be kidding me!')
       include ::profile::platform::baseline::aix
     }
     default: {
