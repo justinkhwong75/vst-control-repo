@@ -26,7 +26,7 @@ class profile::platform::baseline::aix {
   
   file {'/var/adm/cron/log':
     owner  => 'bin',
-    group  => 'vron',
+    group  => 'cron',
     mode   => '0660',
   }
   
