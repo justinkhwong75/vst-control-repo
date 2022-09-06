@@ -112,9 +112,8 @@ cem_linux::benchmark: 'cis'
 cem_linux::config:
   profile: 'server' 
   level: '1'
-  control_configs:
-    "Ensure mounting of cramfs filesystems is disabled":
-      filesystem: "cramfs"
+  only:
+    - 'c1_1_1_1'
 
 ##
 # Continous Delivery for Puppet Enterprise (CD4PE)
