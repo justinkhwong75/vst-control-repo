@@ -114,7 +114,9 @@ cem_linux::config:
   level: '1'
   only:
     - 'c1_1_1_1'
-
+    - 'c1_1_1_3'
+    - 'c1_1_2'
+  
 ##
 # Continous Delivery for Puppet Enterprise (CD4PE)
 cd4pe::root_config::root_email: 'no-reply@puppet.com'
