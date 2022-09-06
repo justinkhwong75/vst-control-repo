@@ -1,5 +1,5 @@
 class profile::platform::compliance::demo_cis {
 
-  #Cem_linux::Utils::Disable_fs_mounting['Disable cramfs filesystem mounting']
+  include Cem_linux::Utils::Disable_fs_mounting['Disable cramfs filesystem mounting']
 
 }
