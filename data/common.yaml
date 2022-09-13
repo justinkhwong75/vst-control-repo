@@ -131,14 +131,14 @@ cem_windows::config:
     - 'c1_1_3'
     - 'c1_1_4'
    control_configs:
-    c1_1_1:
-      enforce_password_history: 24
-    c1_1_2:
-      maximum_password_age: 90
-    c1_1_3:
-      minimum_password_age: 1
-    c1_1_4:
-      minimum_password_length: 14
+     c1_1_1:
+       enforce_password_history: 24
+     c1_1_2:
+       maximum_password_age: 90
+     c1_1_3:
+       minimum_password_age: 1
+     c1_1_4:
+       minimum_password_length: 14
       
 ##
 # Continous Delivery for Puppet Enterprise (CD4PE)
