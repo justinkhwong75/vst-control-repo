@@ -116,8 +116,7 @@ cem_linux::config:
   only:
     - 'c1_1_1_1'
     - 'c1_1_1_3'
-    - 'c1_1_3'
-    - 'c1_1_4'
+    - 'c1_1_2'
 
 ## 
 # CEM Windows
