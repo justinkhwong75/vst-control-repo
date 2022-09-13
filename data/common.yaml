@@ -120,15 +120,15 @@ cem_linux::config:
 
 ## 
 # CEM Windows
-#cem_windows::framework: 'cis'
-#cem_windows::config:
-#  profile: 'member_server' 
-#  level: '1'
-#  only:
-#    - 'c1_1_1'
-#    - 'c1_1_2'
-#    - 'c1_1_3'
-#    - 'c1_1_4'
+cem_windows::framework: 'cis'
+cem_windows::config:
+  profile: 'member_server' 
+  level: '1'
+  only:
+    - 'c1_1_1'
+    - 'c1_1_2'
+    - 'c1_1_3'
+    - 'c1_1_4'
 #   control_configs:
 #     c1_1_1:
 #       enforce_password_history: 24
