@@ -121,7 +121,7 @@ cem_linux::config:
 
 ## 
 # CEM Windows
-cem_windows::benchmark: 'cis'
+cem_windows::framework: 'cis'
 cem_windows::config:
   profile: 'member_server' 
   level: '1'
