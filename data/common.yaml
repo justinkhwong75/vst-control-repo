@@ -135,7 +135,7 @@ cem_windows::config:
     c1_1_1:
       dsc_enforce_password_history: 24
     c1_1_2:
-      maximum_password_age: 90
+      dsc_maximum_password_age: 90
 #     c1_1_3:
 #       minimum_password_age: 1
 #     c1_1_4:
