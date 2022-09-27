@@ -133,7 +133,7 @@ cem_windows::config:
     
   control_configs:
     c1_1_1:
-      enforce_password_history: 36
+      dsc_enforce_password_history: 36
 #     c1_1_2:
 #       maximum_password_age: 90
 #     c1_1_3:
