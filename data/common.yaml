@@ -139,7 +139,7 @@ cem_windows::config:
     c1_1_3:
       dsc_minimum_password_age: 2
     c1_1_4:
-      dsc_minimum_password_length: 16
+      dsc_minimum_password_length: 14
       
 ##
 # Continous Delivery for Puppet Enterprise (CD4PE)
