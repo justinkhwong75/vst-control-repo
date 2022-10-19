@@ -109,10 +109,10 @@ puppet_enterprise::master::code_manager::forge_settings:
 
 ## 
 ## CEM Linux
-#cem_linux::benchmark: 'cis'
-#cem_linux::config:
-#  profile: 'server' 
-#  level: '1'
+cem_linux::benchmark: 'cis'
+cem_linux::config:
+  profile: 'server' 
+  level: '1'
 #  only:
 #    - 'c1_1_1_1'
 #    - 'c1_1_1_3'
