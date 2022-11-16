@@ -120,10 +120,6 @@ mod 'puppetlabs-selinux_core', '1.0.2'
 mod 'puppetlabs-augeas_core', '1.0.4'
 mod 'puppetlabs-host_core', '1.0.2'
 
-mod 'tse-tse_facts',
-    git: 'https://github.com/puppetlabs/tse-module-tse_facts.git',
-    ref: '638abef'
-
 mod 'demo_cis',
     git: 'https://github.com/ipcrm/ipcrm-demo_cis.git',
     ref: '4e6b63b'
