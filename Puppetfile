@@ -63,7 +63,9 @@ mod 'puppetlabs-service', '2.2.0'
 mod 'puppetlabs-servicenow_change_requests', '0.3.1'
 mod 'puppetlabs-servicenow_cmdb_integration', '0.2.0'
 mod 'puppetlabs-servicenow_reporting_integration', '0.2.1'
-mod 'puppetlabs-splunk_hec', '0.8.1' # Missing requirement of puppetlabs-puppet_metrics_collector
+mod 'puppetlabs-splunk_hec', '1.3.0' # Missing requirement of puppetlabs-puppet_metrics_collector
+mod 'puppetlabs-puppet_metrics_collector', '7.1.1'
+mod 'puppetlabs-pe_event_forwarding', '1.1.0'
 mod 'puppetlabs-sqlserver', '3.0.0'
 mod 'puppetlabs-stdlib', '8.1.0'
 mod 'puppetlabs-tomcat', '4.2.0'
